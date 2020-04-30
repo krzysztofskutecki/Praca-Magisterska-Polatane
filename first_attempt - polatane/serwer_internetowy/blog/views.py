@@ -91,7 +91,7 @@ def search(request):
             temp = cursor.fetchone()
 
             while temp is not None:
-                print(temp)
+                #print(temp)
                 L.append(str(temp) + "<br><br>")
                 temp = cursor.fetchone()
             return HttpResponse(i for i in L)
