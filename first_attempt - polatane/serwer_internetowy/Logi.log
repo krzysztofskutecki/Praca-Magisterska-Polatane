@@ -1,0 +1,413 @@
+"GET / HTTP/1.1" 200 9157
+"GET /about/ HTTP/1.1" 200 234
+"GET /info/ HTTP/1.1" 200 3642
+Forbidden (CSRF token missing or incorrect.): /logout/
+"POST /logout/ HTTP/1.1" 403 1019
+"GET / HTTP/1.1" 200 9157
+"GET / HTTP/1.1" 200 9157
+"GET /user/TestUser HTTP/1.1" 200 8365
+"GET / HTTP/1.1" 200 9157
+"GET /user/TestUser HTTP/1.1" 200 8365
+"GET /user/TestUser HTTP/1.1" 200 8365
+"GET / HTTP/1.1" 200 9157
+"GET /user/TestUser HTTP/1.1" 200 8365
+"GET /search/ HTTP/1.1" 200 3671
+"GET / HTTP/1.1" 200 9157
+"GET /user/TestUser HTTP/1.1" 200 8040
+"GET /search/ HTTP/1.1" 200 3671
+"GET / HTTP/1.1" 200 9157
+"GET /post/new/ HTTP/1.1" 200 4420
+"POST /post/new/ HTTP/1.1" 302 0
+"GET /post/62/ HTTP/1.1" 200 4083
+"GET /logout/ HTTP/1.1" 200 3411
+"GET / HTTP/1.1" 200 7916
+"GET /user/TestUser HTTP/1.1" 200 7500
+"GET /user/TestUser HTTP/1.1" 200 7500
+"GET /post/62/ HTTP/1.1" 200 3730
+"GET /post/62/delete HTTP/1.1" 301 0
+"GET /post/62/delete/ HTTP/1.1" 302 0
+"GET /login/?next=/post/62/delete/ HTTP/1.1" 200 4540
+"POST /login/?next=/post/62/delete/ HTTP/1.1" 200 4732
+"POST /login/?next=/post/62/delete/ HTTP/1.1" 200 4732
+"POST /login/?next=/post/62/delete/ HTTP/1.1" 200 4731
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET /admin/ HTTP/1.1" 302 0
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/login.css
+"GET /static/admin/css/base.css HTTP/1.1" 404 99
+"GET /static/admin/css/login.css HTTP/1.1" 404 100
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /static/admin/css/responsive.css
+"GET /static/admin/css/responsive.css HTTP/1.1" 404 105
+Not Found: /static/admin/css/responsive.css
+"GET /static/admin/css/responsive.css HTTP/1.1" 404 105
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 1983
+Not Found: /static/admin/css/base.css
+"GET /static/admin/css/base.css HTTP/1.1" 404 99
+Not Found: /static/admin/css/login.css
+"GET /static/admin/css/login.css HTTP/1.1" 404 100
+Not Found: /static/admin/css/responsive.css
+"GET /static/admin/css/responsive.css HTTP/1.1" 404 105
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET / HTTP/1.1" 200 7916
+"GET /login/ HTTP/1.1" 200 4540
+"POST /login/ HTTP/1.1" 200 4732
+"GET / HTTP/1.1" 200 7916
+"GET /login/ HTTP/1.1" 200 4540
+"POST /login/ HTTP/1.1" 200 4732
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /static/admin/css/base.css
+"GET /admin/ HTTP/1.1" 302 0
+Not Found: /static/admin/css/login.css
+"GET /static/admin/css/base.css HTTP/1.1" 404 99
+"GET /static/admin/css/login.css HTTP/1.1" 404 100
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /static/admin/css/responsive.css
+"GET /static/admin/css/responsive.css HTTP/1.1" 404 105
+Not Found: /static/admin/css/responsive.css
+"GET /static/admin/css/responsive.css HTTP/1.1" 404 105
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+"GET /static/admin/css/base.css HTTP/1.1" 404 99
+"GET /static/admin/css/login.css HTTP/1.1" 404 100
+"GET /static/admin/css/responsive.css HTTP/1.1" 404 105
+"GET / HTTP/1.1" 200 7916
+"GET /login/ HTTP/1.1" 200 4540
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 7992
+"GET /post/62/ HTTP/1.1" 200 3806
+"GET /post/62/delete/ HTTP/1.1" 200 3966
+"POST /post/62/delete/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 9157
+"GET /post/new/ HTTP/1.1" 200 4420
+"POST /post/new/ HTTP/1.1" 302 0
+"GET /post/63/ HTTP/1.1" 200 4084
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /logout/ HTTP/1.1" 200 3411
+"GET /login/ HTTP/1.1" 200 4540
+"POST /login/ HTTP/1.1" 200 4732
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /post/63/ HTTP/1.1" 200 3807
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /post/63/delete HTTP/1.1" 301 0
+"GET /post/63/delete/ HTTP/1.1" 200 3973
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /user/NewUser3 HTTP/1.1" 200 5948
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /post/63/ HTTP/1.1" 200 3807
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /post/63/update HTTP/1.1" 301 0
+"GET /post/63/update/ HTTP/1.1" 200 4451
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /post/63/ HTTP/1.1" 200 3807
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /post/63/update/ HTTP/1.1" 200 4451
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /user/NewUser3 HTTP/1.1" 200 5948
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /post/63/ HTTP/1.1" 200 3807
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+Forbidden (Permission denied): /post/63/delete/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python38\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python38\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Python38\lib\site-packages\django\contrib\auth\mixins.py", line 108, in dispatch
+    return self.handle_no_permission()
+  File "D:\Python38\lib\site-packages\django\contrib\auth\mixins.py", line 43, in handle_no_permission
+    raise PermissionDenied(self.get_permission_denied_message())
+django.core.exceptions.PermissionDenied
+"GET /post/63/delete/ HTTP/1.1" 403 22
+"GET /about/ HTTP/1.1" 200 234
+"GET /about/?id=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1" 200 259
+"GET /about/ HTTP/1.1" 200 3624
+"GET /about/?id=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1" 200 3661
+"GET /about/?id=Jak+zrobi%C4%87+b%C5%82%C4%85d%3F HTTP/1.1" 200 3643
+"GET /info/ HTTP/1.1" 200 3642
+"GET /search/ HTTP/1.1" 200 3671
+"POST /search/ HTTP/1.1" 200 18
+"GET /search/ HTTP/1.1" 200 3671
+"POST /search/ HTTP/1.1" 200 18
+"GET /search/ HTTP/1.1" 200 3671
+"POST /search/ HTTP/1.1" 200 268
+"GET /search/ HTTP/1.1" 200 3671
+"POST /search/ HTTP/1.1" 200 18
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /search/ HTTP/1.1" 200 3671
+"POST /search/ HTTP/1.1" 200 3671
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'content'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 105, in search
+    return render(request, 'blog/search.html', context)
+  File "D:\Python38\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python38\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python38\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\Python38\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\Python38\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\Python38\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\Python38\lib\site-packages\django\template\loaders\cached.py", line 54, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\Python38\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Python38\lib\site-packages\django\template\loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\Python38\lib\site-packages\django\template\loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Python38\lib\site-packages\django\template\base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'content', expected 'endblock'. Did you forget to register or load this tag?
+"GET /search/ HTTP/1.1" 500 27
+"GET /about/ HTTP/1.1" 200 3624
+"GET /about/?id=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1" 200 3624
+"GET /about/?id=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1" 200 3624
+"GET /about/?id=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1" 200 3661
+"GET /about/?id=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1" 200 3661
+"GET /search/ HTTP/1.1" 200 3684
+"POST /search/ HTTP/1.1" 200 18
+"GET /search/ HTTP/1.1" 200 3684
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 102, in search
+    return render(request, 'blog/search.html', context)
+  File "D:\Python38\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python38\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "D:\Python38\lib\site-packages\django\template\context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than set.
+"POST /search/ HTTP/1.1" 500 27
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 103, in search
+    return render(request, 'blog/search.html', context)
+  File "D:\Python38\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python38\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "D:\Python38\lib\site-packages\django\template\context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than set.
+"POST /search/ HTTP/1.1" 500 27
+"GET /search/ HTTP/1.1" 200 3684
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 103, in search
+    return render(request, 'blog/search.html', context)
+  File "D:\Python38\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python38\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python38\lib\site-packages\django\template\backends\django.py", line 59, in render
+    context = make_context(context, request, autoescape=self.backend.engine.autoescape)
+  File "D:\Python38\lib\site-packages\django\template\context.py", line 270, in make_context
+    raise TypeError('context must be a dict rather than %s.' % context.__class__.__name__)
+TypeError: context must be a dict rather than set.
+"POST /search/ HTTP/1.1" 500 27
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /search/ HTTP/1.1" 200 3684
+"POST /search/ HTTP/1.1" 200 18
+"GET /search/ HTTP/1.1" 200 3684
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 101, in search
+    return render(request, 'blog/search.html', {'Try again without special characters': temp})
+UnboundLocalError: local variable 'temp' referenced before assignment
+"POST /search/ HTTP/1.1" 500 27
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 101, in search
+    return render(request, 'blog/search.html', {temp:'Try again without special characters'})
+UnboundLocalError: local variable 'temp' referenced before assignment
+"POST /search/ HTTP/1.1" 500 27
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 101, in search
+    return render(request, 'blog/search.html', {temp:'Try again without special characters'})
+UnboundLocalError: local variable 'temp' referenced before assignment
+"POST /search/ HTTP/1.1" 500 27
+Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\Python38\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python38\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Krzysiek\PycharmProjects\first_attempt - polatane\serwer_internetowy\blog\views.py", line 101, in search
+    return render(request, 'blog/search.html', {'Try again without special characters': temp})
+UnboundLocalError: local variable 'temp' referenced before assignment
+"POST /search/ HTTP/1.1" 500 27
+"POST /search/ HTTP/1.1" 200 3680
+"POST /search/ HTTP/1.1" 200 3680
+"POST /search/ HTTP/1.1" 200 18
+"POST /search/ HTTP/1.1" 200 3680
+"POST /search/ HTTP/1.1" 200 3680
+"POST /search/ HTTP/1.1" 200 3680
+"GET / HTTP/1.1" 200 7993
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+"GET /search/ HTTP/1.1" 200 3680
+"POST /search/ HTTP/1.1" 200 3680
+"POST /search/ HTTP/1.1" 200 18
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7995
+Not Found: /static/blog/main.css
+Not Found: /media/default.jpg
+"GET /static/blog/main.css HTTP/1.1" 404 179
+"GET /media/default.jpg HTTP/1.1" 404 179
+Not Found: /media/profile_pics/abc.jpg
+Not Found: /media/profile_pics/34992.jpg
+"GET /media/profile_pics/abc.jpg HTTP/1.1" 404 179
+"GET /media/profile_pics/34992.jpg HTTP/1.1" 404 179
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 7995
+Not Found: /static/blog/main.css
+"GET /static/blog/main.css HTTP/1.1" 404 179
+Not Found: /media/default.jpg
+Not Found: /media/profile_pics/abc.jpg
+"GET /media/default.jpg HTTP/1.1" 404 179
+"GET /media/profile_pics/abc.jpg HTTP/1.1" 404 179
+Not Found: /media/profile_pics/34992.jpg
+"GET /media/profile_pics/34992.jpg HTTP/1.1" 404 179
+"GET /?page=2 HTTP/1.1" 200 14514
+Not Found: /static/blog/main.css
+"GET /static/blog/main.css HTTP/1.1" 404 179
+Not Found: /media/profile_pics/34992.jpg
+"GET /media/profile_pics/34992.jpg HTTP/1.1" 404 179
+"GET /?page=2 HTTP/1.1" 200 14514
+Not Found: /static/blog/main.css
+"GET /static/blog/main.css HTTP/1.1" 404 94
+Not Found: /media/profile_pics/34992.jpg
+"GET /media/profile_pics/34992.jpg HTTP/1.1" 404 102
+"GET / HTTP/1.1" 200 7993
+Not Found: /static/blog/main.css
+"GET /static/blog/main.css HTTP/1.1" 404 94
+Not Found: /media/default.jpg
+"GET /media/default.jpg HTTP/1.1" 404 91
+Not Found: /media/profile_pics/abc.jpg
+Not Found: /media/profile_pics/34992.jpg
+"GET /media/profile_pics/34992.jpg HTTP/1.1" 404 102
+"GET /media/profile_pics/abc.jpg HTTP/1.1" 404 100
+"GET /post/27/ HTTP/1.1" 200 4131
+Not Found: /static/blog/main.css
+"GET /static/blog/main.css HTTP/1.1" 404 94
+Not Found: /media/profile_pics/abc.jpg
+"GET /media/profile_pics/abc.jpg HTTP/1.1" 404 100
